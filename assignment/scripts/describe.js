@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Define a new string variable called name and assign it a value of 'Dane'
+// Check to see if the variable is equal to Mary, if yes print 'Hi, Mary' to the console
+// If the name variable is not equal to Mary write 'How do you do?' to the console
+// Result will write 'How do you do?' 
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// define variable secret with no type specified
+// define variable code with number value of 123
+// Check the value of variable code. If it equals 123 set secret to value 'super' and multiply code by 2
+// Check value of variable code - if it is greater than 250 set value of secret to 'duper'
+// Since the value of code is 246 the result of the console.log will be 'super'
 
 //CODE
 /*
@@ -70,10 +71,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//define variable isStudent as a boolean and assign value of true
+//define variable age and assign number 34
+//define variable zip and assign number 55407
+//check value of isStudent and zip - if true and greater than 80000 print 'You're a student on the west coast!' to console
+//if that logic fails check that isStudent is false or age is less than 30 - if both conditions are met print 'what are you're hobbies' to console
+//if both of those fail check for only isStudent and print 'Welcome to Prime' to console
+//if all other logic fails print 'How about the weather' to console
+//result 'Welcome to  Prime'
 
 //CODE
 /*
@@ -136,6 +141,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -147,7 +153,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,7 +166,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+if(minAge > age) {
   console.log('no entry');
 } else {
   console.log('enter');
